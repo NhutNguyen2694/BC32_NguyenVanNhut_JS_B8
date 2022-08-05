@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(180, 184, 135);">
+  <div class="container">
+    <div class="row">
+      <div class=" cd-md-10 my-3">
+        <input type="number" id="numberN" placeholder="Nhập số n">
+        <button class="btn btn-info mx-3" onclick="themSoN()">Thêm số</button>
+
+        <p>
+          Các số nguyên vừa nhập:
+          <span class="text-success font-weight-bold" id="spanSoN">
+
+          </span>
+        </p>
+
+        <p> 1. Tổng các số dương.
+          <button class="btn btn-warning" onclick="tongN()">Tổng</button>
+          <span class="text-success font-weight-bold" id="spanTongN"></span>
+        </p>
+
+        <p> 2. Đếm số dương.
+          <button class="btn btn-warning" onclick="demNduong()">Đếm</button>
+          <span class="text-success font-weight-bold" id="spanDemN"></span>
+        </p>
+
+        <p> 3. Tìm số nhỏ nhất.
+          <button class="btn btn-warning" onclick="soMin()">Tìm</button>
+          <span class="text-success font-weight-bold" id="spanSoMin"></span>
+        </p>
+
+        <p> 4. Tìm số dương nhỏ nhất.
+          <button class="btn btn-warning" onclick="soDMin()">Tìm</button>
+          <span class="text-success font-weight-bold" id="spanSoDMin"></span>
+        </p>
+
+        <p> 5. Tìm số chẵn cuối cùng.
+          <button class="btn btn-warning" onclick="soChanC()">Tìm</button>
+          <span class="text-success font-weight-bold" id="spanSoChan"></span>
+        </p>
+
+        <p> 6. Đổi chỗ.
+          <input type="number" id="number1" placeholder="Nhập vị trí 1">
+          <input type="number" id="number2" placeholder="Nhập vị trí 2">
+          <button class="btn btn-warning" onclick="doiCho()">Đổi chỗ</button>
+          <span class="text-success font-weight-bold" id="spanDoiCho"></span>
+        </p>
+
+        <p> 7. Sắp xếp tăng dần.
+          <button class="btn btn-warning" onclick="tangDan()">Sắp xếp</button>
+          <span class="text-success font-weight-bold" id="spanTangDan"></span>
+        </p>
+
+        <p> 8. Tìm số nguyên tố đầu.
+          <button class="btn btn-warning" onclick="soNT()">Tìm</button>
+          <span class="text-success font-weight-bold" id="spanSoNT"></span>
+        </p>
+
+        <p> 9. Đếm số nguyên</p>
+        <input type="number" id="number3" placeholder="Nhập số n">
+        <button class="btn btn-warning mx-3" onclick="them()">Thêm số</button>
+        <p>
+          Các số nguyên vừa nhập:
+          <span class="text-success font-weight-bold" id="spanThemSoN">
+          </span>
+        </p>
+        <p>
+          <button class="btn btn-warning" onclick="demSN()">Đếm</button>
+          <span class="text-success font-weight-bold" id="spanDemSoN">
+
+          </span>
+        </p>
+
+        <p> 10. So sánh số lượng số âm và dương.
+          <button class="btn btn-warning" onclick="soSanh()">So Sánh</button>
+          <span class="text-success font-weight-bold" id="spanSoSanh"></span>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
